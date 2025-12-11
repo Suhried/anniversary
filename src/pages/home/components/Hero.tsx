@@ -1,6 +1,5 @@
 
 import { useEffect, useState } from 'react';
-import HandwritingHeading from './HandwritingHeading';
 
 interface HeroProps {
   scrollY: number;
@@ -47,9 +46,11 @@ export default function Hero({ scrollY }: HeroProps) {
         </div>
 
         {/* Names */}
-        <div className="mb-4">
-          <HandwritingHeading text="Shanto ❤️ Ayanty" className="" mobileStack={true} />
-        </div>
+        <h1 className="font-serif text-6xl md:text-8xl text-white mb-4 tracking-wide drop-shadow-lg flex flex-col md:flex-row items-center md:items-baseline justify-center gap-2 md:gap-6">
+          <span className="inline-block animate-fade-in-up">Shanto</span>
+          <span className="inline-block text-rose-300 animate-heartbeat md:mx-6">❤️</span>
+          <span className="inline-block animate-fade-in-up animation-delay-300">Ayanty</span>
+        </h1>
 
         {/* Subtitle */}
         <div className={`mt-8 transition-all duration-1000 delay-500 ${isVisible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-10'}`}>
