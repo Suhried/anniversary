@@ -20,7 +20,7 @@ export default function Hero({ scrollY }: HeroProps) {
         style={{ transform: `translateY(${scrollY * 0.5}px)` }}
       >
         <img
-          src="/hero-image.jpg"
+          src={`${import.meta.env.BASE_URL}hero-image.jpg`}
           alt="Shanto & Ayanty - Romantic celebration"
           className="w-full h-full object-cover"
           style={{ objectPosition: '50% 10%' }}
