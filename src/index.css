@@ -13,6 +13,13 @@
   .font-serif {
     font-family: 'Cormorant Garamond', serif;
   }
+
+  /* Handwriting Font for Names */
+  .font-handwriting {
+    font-family: 'Great Vibes', 'Dancing Script', 'Sacramento', 'Brush Script MT', cursive;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+  }
 }
 
 @layer utilities {
