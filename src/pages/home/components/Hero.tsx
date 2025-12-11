@@ -47,9 +47,9 @@ export default function Hero({ scrollY }: HeroProps) {
 
         {/* Names */}
         <h1 className="font-handwriting text-6xl md:text-8xl lg:text-9xl text-white mb-4 tracking-wide drop-shadow-lg flex flex-col md:flex-row items-center md:items-baseline justify-center gap-2 md:gap-6">
-          <span className="inline-block animate-fade-in-up">Shanto</span>
+          <span className="inline-block animate-fade-in-up">Ayanty</span>
           <span className="inline-block text-rose-300 animate-heartbeat md:mx-6 text-5xl md:text-7xl">❤️</span>
-          <span className="inline-block animate-fade-in-up animation-delay-300">Ayanty</span>
+          <span className="inline-block animate-fade-in-up animation-delay-300">Shanto</span>
         </h1>
 
         {/* Subtitle */}
