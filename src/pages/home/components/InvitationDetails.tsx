@@ -55,7 +55,7 @@ export default function InvitationDetails() {
               <h3 className="font-serif text-2xl text-gray-800 mb-3">Date</h3>
               <p className="text-3xl font-semibold text-rose-500 mb-2">15</p>
               <p className="text-lg text-gray-600">December 2025</p>
-              <p className="text-sm text-gray-500 mt-2">Sunday</p>
+              <p className="text-sm text-gray-500 mt-2">Monday</p>
             </div>
           </div>
 
