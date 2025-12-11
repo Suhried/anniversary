@@ -25,19 +25,19 @@ export default function Gallery() {
 
   const photos = [
     {
-      url: '/gallery-1.jpg',
+      url: `${import.meta.env.BASE_URL}gallery-1.jpg`,
       title: 'Cherished Moment 1'
     },
     {
-      url: '/gallery-2.jpg',
+      url: `${import.meta.env.BASE_URL}gallery-2.jpg`,
       title: 'Cherished Moment 2'
     },
     {
-      url: '/gallery-3.jpg',
+      url: `${import.meta.env.BASE_URL}gallery-3.jpg`,
       title: 'Cherished Moment 3'
     },
     {
-      url: '/gallery-4.jpg',
+      url: `${import.meta.env.BASE_URL}gallery-4.jpg`,
       title: 'Cherished Moment 4'
     }
   ];
